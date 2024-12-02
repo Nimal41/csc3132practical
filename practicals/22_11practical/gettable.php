@@ -1,4 +1,5 @@
 <?php
+require_once 'dbconf.php';
 function PrintTableCols($tableName,$connect,$colnames)
 {
 	try {
