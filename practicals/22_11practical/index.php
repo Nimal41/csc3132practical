@@ -41,5 +41,5 @@ try {
 	die($e->getMessage());
 }
 }
-
+PrintTable('student',$connect);
 ?>
